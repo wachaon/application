@@ -1,0 +1,24 @@
+{
+  "name": "application",
+  "version": "0.0.2",
+  "description": "Automatic operation of Windows",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "wes bundle ./src/compile.js ./src/init.js ./src/mouse.cs ./src/keyboard.cs ./src/window.cs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wachaon/application.git"
+  },
+  "keywords": [
+    "window",
+    "mouse",
+    "keyboard"
+  ],
+  "author": "wachaon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wachaon/application/issues"
+  },
+  "homepage": "https://github.com/wachaon/application#readme"
+}
