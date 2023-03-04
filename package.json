@@ -1,6 +1,6 @@
 {
   "name": "application",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Automatic operation of Windows",
   "main": "index.js",
   "scripts": {
