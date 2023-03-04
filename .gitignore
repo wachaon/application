@@ -2,4 +2,5 @@
 .gitignore
 
 node_module/
+wes_modules/
 dev/

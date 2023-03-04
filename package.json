@@ -4,7 +4,8 @@
   "description": "Automatic operation of Windows",
   "main": "index.js",
   "scripts": {
-    "bundle": "wes bundle ./src/compile.js ./src/init.js ./src/mouse.cs ./src/keyboard.cs ./src/window.cs"
+    "bundle": "wes bundle ./wes_modules/clipboard/src/clipboard.cs ./wes_modules/window/src/window.cs ./wes_modules/keyboard/src/keyboard.cs ./wes_modules/mouse/src/mouse.cs ",
+    "install": "wes install @wachaon/clipboard @wachaon/window @wachaon/mouse @wachaon/csharpscript @wachaon/keyboard --bare --save"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/wachaon/application/issues"
   },
-  "homepage": "https://github.com/wachaon/application#readme"
+  "homepage": "https://github.com/wachaon/application#readme",
+  "wes": {
+    "dependencies": {
+      "keyboard": "0.0.6",
+      "mouse": "0.0.6",
+      "window": "0.0.9",
+      "clipboard": "0.0.1",
+      "csharpscript": "0.0.4"
+    }
+  }
 }

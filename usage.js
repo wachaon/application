@@ -1,3 +1,8 @@
-const application = require('./index')
+const application = require('/index.js')
 
-console.log('%O', application)
+WScript.Sleep(5000)
+//console.log(() => application.getTitle)
+console.log(() => application.getTitle())
+console.log(() => application.getWindow())
+application.pos({ x: 100, y: 200 }, 300)
+application.click()
