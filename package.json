@@ -1,11 +1,10 @@
 {
   "name": "application",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Automatic operation of Windows",
   "main": "index.js",
   "scripts": {
-    "bundle": "wes bundle ./wes_modules/clipboard/src/clipboard.cs ./wes_modules/window/src/window.cs ./wes_modules/keyboard/src/keyboard.cs ./wes_modules/mouse/src/mouse.cs ",
-    "install": "wes install @wachaon/clipboard @wachaon/window @wachaon/mouse @wachaon/csharpscript @wachaon/keyboard --bare --save"
+    "bundle": "wes bundle ./src/application.cs ./usage.js"
   },
   "repository": {
     "type": "git",
